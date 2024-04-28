@@ -9,10 +9,10 @@ public class Main {
         }
         System.out.println("Задание 2");
         int temperature = -10;
-        if (temperature <= 5) {
-            System.out.println("На улице " + temperature + " градусов, нужно надеть шапку");
-        } else {
+        if (temperature >= 5) {
             System.out.println("На улице " + temperature + " градусов, можно идти без шапки");
+        } else {
+            System.out.println("На улице " + temperature + " градусов, нужно надеть шапку");
         }
         System.out.println("Задание 3");
         int speed = 70;
@@ -29,10 +29,10 @@ public class Main {
         if (age1 >= 7 && age1 < 17) {
             System.out.println("Если возраст человека равен " + age1 + " лет, то ему нужно ходить в школу.");
         }
-        if (age1 >= 18 && age1 < 24) {
+        if (age1 >= 18 && age1 <= 24) {
             System.out.println("Если возраст человека равен " + age1 + " лет, то ему нужно ходить в университет.");
         }
-            if (age1 >= 24) {
+            if (age1 > 24) {
             System.out.println("Если возраст человека равен " + age1 + " лет, то ему пора ходить на работу.");
         }
         System.out.println("Звадание 5");
@@ -47,7 +47,7 @@ public class Main {
             System.out.println("Если возраст ребёнка равен " + age2 + " лет, то он может кататься без сопровождения взрослого.");
         }
         System.out.println("Задание 6");
-        int places = 103;
+        int places = 60;
         if (places < 60) {
             System.out.println("Если в вагоне " + places + " человека, то в вагоне есть сидячие и стоячии места");
         }
